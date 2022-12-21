@@ -1,13 +1,14 @@
+/* Element that tells whats happening on the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Selector that tells us what background color the body will have */
 body {
     background-color: #d9dcd6;
 }
-
+/* Selectors that tell us what is happening in the header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +20,7 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Tells us that the 'seo' in the header will be a different shade than the rest of the header */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -40,16 +41,16 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Lets us know that the anchor tags will have a white color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Tells us what our paragraphs font size will be */
 p {
     font-size: 16px;
 }
-
+/* Selectors that tell us whats happening in the hero class but also adds an image to said class */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +59,17 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Lets us know our image is floating left and what our margin px will be */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Lets us know our image is floating right and what our margin px will be */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Lets us know what is happening in the content part of the file and how we should be displaying it */
 .content {
     width: 75%;
     display: inline-block;
@@ -83,7 +84,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* The next three classes will tell us their margins, padding, position on the screen as well as colors and font families they will include */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,7 +111,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Lets us know what is happening in the benefits part of the file and how we should be displaying it */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -147,7 +148,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Tells us what should be happening in the footer; padding, clear which is telling us to not consider floats as well as aligning all text to the center and what font family we will have */
 footer {
     padding: 30px;
     clear: both;
